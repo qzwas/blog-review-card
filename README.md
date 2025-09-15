@@ -35,7 +35,7 @@ designing a blog card with its interactive elements and responsivns
 ### Link
 
 
-- Live Site URL: [liveSiteURL](https://your-live-site-url.com)
+- Live Site URL: [liveSiteURL](https://qzwas.github.io/blog-review-card/)
 
 
 ### Built with
@@ -63,6 +63,7 @@ background-color {
 ## Author
 
 - Frontend Mentor - [qzwas](https://www.frontendmentor.io/profile/qzwas)
+- github repo - [blog-review-card](https://github.com/qzwas/blog-review-card)
 
 ## Acknowledgments
 
