@@ -1,0 +1,90 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "figtree", sans-serif;
+}
+body {
+  background-color: var(--Yellow);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+.content {
+  border-radius: 14px;
+  background-color: var(--White);
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--Gray-950);
+  flex-direction: column;
+  box-shadow: 8px 8px var(--Gray-950);
+  max-width: 350px;
+  gap: 23px;
+  text-align: left;
+  padding: 20px;
+  width: 100%;
+}
+#content {
+  max-width: 360px;
+  color: var(--Gray-500);
+}
+.Learning {
+  padding: 6px;
+  border-radius: 4px;
+  background-color: var(--Yellow);
+  font-weight: 600;
+  font-size: 16px;
+}
+.the {
+  border-radius: 14px;
+}
+.title {
+  display: inline-block;
+  color: var(--Gray-950);
+  font-weight: 800;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.title:hover {
+  color: var(--Yellow);
+}
+#acc {
+  color: var(--Gray-950);
+  font-size: 16px;
+  font-weight: 600;
+}
+#date {
+  color: var(--Gray-950);
+}
+.avatar {
+  width: 30px;
+  margin-right: 10px;
+}
+.author {
+  display: flex;
+  align-items: center;
+}
