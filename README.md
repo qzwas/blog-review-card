@@ -35,7 +35,7 @@ designing a blog card with its interactive elements and responsivns
 ### Link
 
 
-- Live Site URL: [liveSiteURL](https://qzwas.github.io/blog-review-card/)
+- Live Site URL: [https://qzwas.github.io/blog-review-card/](https://qzwas.github.io/blog-review-card/)
 
 
 ### Built with
